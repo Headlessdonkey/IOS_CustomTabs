@@ -19,6 +19,8 @@
     CGFloat firstX;
     CGFloat firstY;
     
+    CGFloat startingY;
+    
     float firstTabY;
     
     int _currentTabIndex;
@@ -144,12 +146,15 @@
     if ([(UIPanGestureRecognizer*)sender state] == UIGestureRecognizerStateBegan) {
         firstX = [[sender view] center].x;
         firstY = [[sender view] center].y;
+        if (!startingY) {
+            startingY = firstY;
+        }
         firstTabY = self.rightTabParent.frame.origin.y;
     }
 
     translatedPoint = CGPointMake(firstX, firstY+translatedPoint.y);
     
-    if (translatedPoint.y < firstY) {
+    if (translatedPoint.y < startingY) {
         [[sender view] setCenter:translatedPoint];
 
     }
