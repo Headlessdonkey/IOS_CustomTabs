@@ -23,8 +23,8 @@
 		1A3FA06318D51C78008340C1 /* CustomTabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FA06218D51C78008340C1 /* CustomTabsTests.m */; };
 		1A3FA06F18D54A2D008340C1 /* HideShowTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FA06D18D54A2D008340C1 /* HideShowTestViewController.m */; };
 		1A3FA07018D54A2D008340C1 /* HideShowTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3FA06E18D54A2D008340C1 /* HideShowTestViewController.xib */; };
-		1A7E816318D65867004E9713 /* touch-icon-iphone-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E816218D65867004E9713 /* touch-icon-iphone-retina.png */; };
-		1A7E816518D65873004E9713 /* touch-icon-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E816418D65873004E9713 /* touch-icon-iphone.png */; };
+		1A7E816318D65867004E9713 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E816218D65867004E9713 /* icon@2x.png */; };
+		1A7E816518D65873004E9713 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E816418D65873004E9713 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,8 @@
 		1A3FA06C18D54A2D008340C1 /* HideShowTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideShowTestViewController.h; sourceTree = "<group>"; };
 		1A3FA06D18D54A2D008340C1 /* HideShowTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideShowTestViewController.m; sourceTree = "<group>"; };
 		1A3FA06E18D54A2D008340C1 /* HideShowTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HideShowTestViewController.xib; sourceTree = "<group>"; };
-		1A7E816218D65867004E9713 /* touch-icon-iphone-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone-retina.png"; sourceTree = "<group>"; };
-		1A7E816418D65873004E9713 /* touch-icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone.png"; sourceTree = "<group>"; };
+		1A7E816218D65867004E9713 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1A7E816418D65873004E9713 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +138,8 @@
 		1A3FA03E18D51C78008340C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A7E816418D65873004E9713 /* touch-icon-iphone.png */,
-				1A7E816218D65867004E9713 /* touch-icon-iphone-retina.png */,
+				1A7E816418D65873004E9713 /* icon.png */,
+				1A7E816218D65867004E9713 /* icon@2x.png */,
 				1A3FA03F18D51C78008340C1 /* CustomTabs-Info.plist */,
 				1A3FA04018D51C78008340C1 /* InfoPlist.strings */,
 				1A3FA04318D51C78008340C1 /* main.m */,
@@ -244,8 +244,8 @@
 			files = (
 				1A3FA05018D51C78008340C1 /* Images.xcassets in Resources */,
 				1A3FA07018D54A2D008340C1 /* HideShowTestViewController.xib in Resources */,
-				1A7E816318D65867004E9713 /* touch-icon-iphone-retina.png in Resources */,
-				1A7E816518D65873004E9713 /* touch-icon-iphone.png in Resources */,
+				1A7E816318D65867004E9713 /* icon@2x.png in Resources */,
+				1A7E816518D65873004E9713 /* icon.png in Resources */,
 				1A3FA04218D51C78008340C1 /* InfoPlist.strings in Resources */,
 				1A3FA04B18D51C78008340C1 /* Main.storyboard in Resources */,
 			);
